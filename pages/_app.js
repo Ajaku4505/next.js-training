@@ -1,5 +1,5 @@
-import '../styles/globals.css';
-import TopLayout from '../layouts/toppage';
+import '../styles/globals.css'
+import TopLayout from '../layouts/toppage'
 
 function MyApp({ Component, pageProps }) {
   return <TopLayout>

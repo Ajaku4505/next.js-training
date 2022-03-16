@@ -1,10 +1,14 @@
-import React from 'react'
-import Slider from "react-slick"
+import Link from 'next/link';
 
-export default function Home() {
-  return (
-  <div class="test"></div>
-  )
-}
+const Header = () => (
+  <div>
+    <Link href="/">
+      <a>Home</a>
+    </Link>
+    <Link href="/about">
+      <a>About</a>
+    </Link>
+  </div>
+);
 
 export default Header;
